@@ -64,7 +64,8 @@ function submitComment() {
         }
 
         if (comentarioAtual > maxComentario || nomeAtual > maxNome) {
-            alert("Caixas já preenchidas");
+            comentarioAtual = 1;
+            nomeAtual =1;
         }
 
         document.getElementById("caixa-comentario").value = "";
