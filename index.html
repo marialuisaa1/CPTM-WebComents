@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Rillary, Maria Eduarda , Maria Isabel , Maria Luísa" />
+  <link rel="stylesheet" href="CPTM/css/style.css" />
+  <title>CPTM Web Comments</title>
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+  <header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.cptm.sp.gov.br/Pages/Home.aspx" target="_blank">
+          <img style="width: 9rem" id="logo" src="CPTM/img/CPTM-logo.png" alt="CPTM Logo" />
+        </a>
+
+        <a class="navbar-brand" href="https://www.cptm.sp.gov.br/a-companhia/Pages/a-companhia.aspx" target="_blank">
+          Quem somos
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="avaliacoes">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" style="margin-bottom: 55px">
+            <h1 class="display-4">Avaliações dos Clientes</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card1">
+                      <h5 class="card-title" id="card-title1">Leonardo</h5>
+                      <p class="card-text">
+                        "Adorei a segurança das estações e trens, maravilhoso
+                        o atendimento e a prestação de serviços dos
+                        funcionários! Volto"
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card2">
+                      <h5 class="card-title" id="card-title2">Danilo</h5>
+                      <p class="card-text">
+                        "Muito satisfeito com o atendimento."
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card3">
+                      <h5 class="card-title"  id="card-title3">Nicolas</h5>
+                      <p class="card-text">"Recomendo a todos!"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card4">
+                      <h5 class="card-title"  id="card-title4">Railly</h5>
+                      <p class="card-text">"Muito bom!"</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card5">
+                      <h5 class="card-title"  id="card-title5">Regina</h5>
+                      <p class="card-text">
+                        "Impressionado com a qualidade."
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card6">
+                      <h5 class="card-title"  id="card-title6">Pedro</h5>
+                      <p class="card-text">"Ótimo atendimento!"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card7">
+                      <h5 class="card-title"  id="card-title7">Odete</h5>
+                      <p class="card-text">"Fiquei muito satisfeito!"</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card8">
+                      <h5 class="card-title"  id="card-title8">Bruna</h5>
+                      <p class="card-text">"Superou minhas expectativas."</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="comment-card" id="comment-card9">
+                      <h5 class="card-title"  id="card-title9">Wilson</h5>
+                      <p class="card-text">"Excelente trabalho!"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 3em">
+          <div class="text-center">
+            <a href="#formulario">
+              <button type="button" class="btn btn-danger btn-comment" style="color: white">
+                Comentar
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="formulario" class="py-5">
+      <div class="container">
+        <form>
+          <fieldset class="p-4 rounded px-5 py-4">
+            <legend class="w-auto fw-bolder fs-2 mb-4">
+              Que tal deixar uma avaliação?
+            </legend>
+
+            <div class="mb-3 form-row align-items-end">
+              <div class="col-md-7">
+                <label for="name" class="form-label" id="caixa-nome">Nome:</label>
+                <input type="text" id="name" name="name" class="form-control" required />
+              </div>
+
+              <div class="col-md-3">
+                <label for="idade" class="form-label">Idade:</label>
+                <select name="idade" id="idade" class="form-select" required>
+                  <option value="">Selecione</option>
+                  <option value="menorIdade">Menos de 18</option>
+                  <option value="18-a-35">Entre 18 e 35</option>
+                  <option value="35-a-50">Entre 35 e 50</option>
+                  <option value="50+">Mais de 50</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="genero" class="form-label">Gênero:</label>
+              <select name="genero" id="genero" class="form-select" required>
+                <option value="">Selecione</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="nao-binario">Não binário</option>
+                <option value="outro">Outro</option>
+                <option value="nao-dizer">Prefiro não dizer</option>
+              </select>
+            </div>
+
+            <div class="mb-5 mt-5">
+              <legend class="fw-semibold">
+                Como você avalia o desempenho dos trens e estações?
+              </legend>
+              <div class="form-check">
+                <input type="radio" name="Desempenho-trens" id="muito-bom" class="form-check-input" value="muito-bom"
+                  required />
+                <label for="muito-bom" class="form-check-label">Muito bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Desempenho-trens" id="bom" class="form-check-input" value="bom" required />
+                <label for="bom" class="form-check-label">Bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Desempenho-trens" id="regular" class="form-check-input" value="regular"
+                  required />
+                <label for="regular" class="form-check-label">Regular</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Desempenho-trens" id="ruim" class="form-check-input" value="ruim" required />
+                <label for="ruim" class="form-check-label">Ruim</label>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <legend class="fw-semibold">
+                Como você avalia a limpeza dos trens e estações?
+              </legend>
+              <div class="form-check">
+                <input type="radio" name="Limpeza-trens" id="muito-bom" class="form-check-input" value="muito-bom"
+                  required />
+                <label for="muito-bom" class="form-check-label">Muito bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Limpeza-trens" id="bom" class="form-check-input" value="bom" required />
+                <label for="bom" class="form-check-label">Bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Limpeza-trens" id="regular" class="form-check-input" value="regular"
+                  required />
+                <label for="regular" class="form-check-label">Regular</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Limpeza-trens" id="ruim" class="form-check-input" value="ruim" required />
+                <label for="ruim" class="form-check-label">Ruim</label>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <legend class="fw-semibold">
+                Como você avalia a segurança dos trens e estações?
+              </legend>
+              <div class="form-check">
+                <input type="radio" name="Segurança-trens" id="muito-bom" class="form-check-input" value="muito-bom"
+                  required />
+                <label for="muito-bom" class="form-check-label">Muito bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Segurança-trens" id="bom" class="form-check-input" value="bom" required />
+                <label for="bom" class="form-check-label">Bom</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Segurança-trens" id="regular" class="form-check-input" value="regular"
+                  required />
+                <label for="regular" class="form-check-label">Regular</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="Segurança-trens" id="ruim" class="form-check-input" value="ruim" required />
+                <label for="ruim" class="form-check-label">Ruim</label>
+              </div>
+            </div>
+
+            <div class="caixa-comentario mb-4">
+              <label for="comentario" class="fw-bold form-label fs-4">
+                Comentário
+                <textarea name="comentario" cols="100" rows="5" class="form-control mt-2" id="caixa-comentario" style="resize: none"
+                  required></textarea>
+              </label>
+            </div>
+
+            <a href="#avaliacoes">
+              <button type="submit" class="btn btn-primary" onclick="submitComment()">
+                Enviar Avaliação
+              </button>
+            </a>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="CPTM/js/script.js"></script>
+</body>
+
+</html>
